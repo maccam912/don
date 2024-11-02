@@ -10,7 +10,8 @@
     "npm:react-dom@^18.2.0": "18.3.1_react@18.3.1",
     "npm:react@^18.2.0": "18.3.1",
     "npm:typescript@^5.2.2": "5.6.3",
-    "npm:vite@^5.3.1": "5.4.10"
+    "npm:vite@^5.3.1": "5.4.10",
+    "npm:zustand@^4.4.7": "4.5.5_@types+react@18.3.12_react@18.3.1"
   },
   "npm": {
     "@ampproject/remapping@2.3.0": {
@@ -586,6 +587,12 @@
         "picocolors"
       ]
     },
+    "use-sync-external-store@1.2.2_react@18.3.1": {
+      "integrity": "sha512-PElTlVMwpblvbNqQ82d2n6RjStvdSoNe9FG28kNfz3WiXilJm4DdNkEzRhCZuIDwY8U08WVihhGR5iRqAwfDiw==",
+      "dependencies": [
+        "react"
+      ]
+    },
     "vite@5.4.10": {
       "integrity": "sha512-1hvaPshuPUtxeQ0hsVH3Mud0ZanOLwVTneA1EgbAM5LhaZEqyPWGRQ7BtaMvUrTDeEaC8pxtj6a6jku3x4z6SQ==",
       "dependencies": [
@@ -597,6 +604,14 @@
     },
     "yallist@3.1.1": {
       "integrity": "sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g=="
+    },
+    "zustand@4.5.5_@types+react@18.3.12_react@18.3.1": {
+      "integrity": "sha512-+0PALYNJNgK6hldkgDq2vLrw5f6g/jCInz52n9RTpropGgeAf/ioFUCdtsjCqu4gNhW9D01rUQBROoRjdzyn2Q==",
+      "dependencies": [
+        "@types/react",
+        "react",
+        "use-sync-external-store"
+      ]
     }
   },
   "workspace": {
@@ -611,7 +626,8 @@
         "npm:react-dom@^18.2.0",
         "npm:react@^18.2.0",
         "npm:typescript@^5.2.2",
-        "npm:vite@^5.3.1"
+        "npm:vite@^5.3.1",
+        "npm:zustand@^4.4.7"
       ]
     }
   }
